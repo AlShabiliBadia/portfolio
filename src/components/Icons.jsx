@@ -56,3 +56,10 @@ export const FolderGit2 = ({ size = 64 }) => (
     <path d="M12 15v5"></path>
   </svg>
 );
+
+export const Mail = ({ size = 20 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+    <path d="m2 7 10 7 10-7"></path>
+  </svg>
+);

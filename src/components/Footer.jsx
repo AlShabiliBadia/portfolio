@@ -1,3 +1,5 @@
+import { Mail, Linkedin } from './Icons';
+
 function Footer() {
   return (
     <footer className="py-20 bg-gray-900 text-center">
@@ -9,16 +11,18 @@ function Footer() {
       <div className="flex gap-4 mt-8 justify-center">
         <a
           href="mailto:badiaalshabili@gmail.com"
-          className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+          className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 flex items-center justify-center gap-2 min-w-[180px]"
         >
+          <Mail size={20} />
           Email Me
         </a>
         <a
           href="https://www.linkedin.com/in/badia-al-shabili-792863305/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+          className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 flex items-center justify-center gap-2 min-w-[180px]"
         >
+          <Linkedin size={20} />
           View LinkedIn
         </a>
       </div>

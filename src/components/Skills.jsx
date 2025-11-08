@@ -7,7 +7,7 @@ const skillsCategories = [
   },
   {
     title: "Test Automation Frameworks",
-    skills: "Playwright, Selenium, Appium, Pytest, Locust"
+    skills: "Playwright, Selenium, Appium, Pytest"
   },
   {
     title: "QA Methodologies",
