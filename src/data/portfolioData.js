@@ -53,7 +53,7 @@ export const experienceData = [
   {
     role: "QA Automation Intern",
     company: "12u12 Sdn Bhd - Selangor",
-    date: "August 2025 – Present",
+    date: "July 2025 – Present",
     points: [
       "Built and maintained nearly 1,000 automated UI tests and debugged 400+ legacy scripts, improving stability by 95% while mentoring a new intern to accelerate onboarding.",
       "Re-architected the test suite from plain Python to a Pytest-based, parameterized framework, reducing duplication by 50% and enabling large-scale scenario coverage.",

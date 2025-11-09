@@ -24,7 +24,7 @@ function Hero() {
           GitHub
         </a>
         <a
-          href="https://www.linkedin.com/in/badia-al-shabili-792863305/"
+          href="https://www.linkedin.com/in/badia-alshabili/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-transparent border border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white py-2 px-4 rounded-lg transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 flex items-center gap-2"

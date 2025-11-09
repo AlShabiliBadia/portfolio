@@ -17,7 +17,7 @@ function Footer() {
           Email Me
         </a>
         <a
-          href="https://www.linkedin.com/in/badia-al-shabili-792863305/"
+          href="https://www.linkedin.com/in/badia-alshabili/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 flex items-center justify-center gap-2 min-w-[180px]"
