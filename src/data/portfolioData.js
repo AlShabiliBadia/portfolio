@@ -1,5 +1,11 @@
 export const projectsData = [
   {
+    title: "V2 Re-architecture: Keyword-Driven E2E Framework",
+    description: "This project is a complete architectural overhaul of an existing Playwright/Pytest suite, transforming it into a highly scalable, maintainable system. All tests are now driven by Pydantic-validated JSON pipelines, eliminating code duplication and abstracting locators from non-technical test scenarios.",
+    tags: ["Python", "Playwright", "Pytest", "Pydantic", "JSON Schema", "Keyword-Driven Testing"],
+    repoUrl: "https://github.com/AlShabiliBadia/saucedemo-playwright-e2e-v2"
+  },
+  {
     title: "E2E Test Automation Framework",
     description: "A scalable E2E test framework built with Playwright for the SauceDemo e-commerce site. It features data-driven testing from external JSON files to validate comprehensive user flows like login, sorting, and full checkout. The entire pipeline is automated with GitHub Actions, which runs the Pytest suite and deploys a live Allure test report.",
     tags: ["Python", "Playwright", "Pytest", "Allure Reports", "GitHub Actions"],
