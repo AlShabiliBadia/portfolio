@@ -62,7 +62,7 @@ export const experienceData = [
     date: "July 2025 – Present",
     points: [
       "Built and maintained nearly 1,000 automated UI tests and debugged 400+ legacy scripts, improving stability by 95% while mentoring a new intern to accelerate onboarding.",
-      "Re-architected the test suite from plain Python to a Pytest-based, parameterized framework, reducing duplication by 50% and enabling large-scale scenario coverage.",
+      "Re-architected the test framework to be data-driven, moving test steps from Python code into JSON files. This reduced code duplication by over 90% and allowed non-technical team members to write new tests.",
       "Optimized test execution from 3–4 minutes to 4–6 seconds per case through caching and modular data design.",
       "Developed a Gemini-powered AI data extraction tool to automate nutritional data collection and schema validation."
     ]
