@@ -1,5 +1,11 @@
 export const projectsData = [
   {
+    title: "Kandidate: Event-Driven AI Analysis Engine",
+    description: "Architected a distributed, self-hosted ATS backend designed for zero-cost infrastructure. Built an Event-Driven Microservices system using RabbitMQ to decouple high-latency AI processing. Implemented a custom Hybrid Threading Model to run API servers and Queue Consumers in single containers, optimizing RAM usage. Features Polyglot Persistence (syncing MongoDB to PostgreSQL) and Deterministic AI analysis using Gemini and Instructor.",
+    tags: ["FastAPI", "RabbitMQ", "Microservices", "Docker", "Gemini AI", "MongoDB", "PostgreSQL"],
+    repoUrl: "https://github.com/AlShabiliBadia/kandidate"
+  },
+  {
     title: "V2 Re-architecture: Keyword-Driven E2E Framework",
     description: "This project is a complete architectural overhaul of an existing Playwright/Pytest suite, transforming it into a highly scalable, maintainable system. All tests are now driven by Pydantic-validated JSON pipelines, eliminating code duplication and abstracting locators from non-technical test scenarios.",
     tags: ["Python", "Playwright", "Pytest", "Pydantic", "JSON Schema", "Keyword-Driven Testing"],
@@ -36,12 +42,6 @@ export const projectsData = [
     repoUrl: "https://github.com/AlShabiliBadia/practice-sql"
   },
   {
-    title: "Car Dealership Management System",
-    description: "A full-stack Django application simulating a car dealership's management system. The core feature is its **role-based access control (RBAC)**, providing unique dashboards and permissions for four different user types: Admins (managing users), Staff (managing car inventory), Drivers, and Customers (browsing cars). The project includes full CRUD (Create, Read, Update, Delete) functionality for all data models and features a custom, email-based authentication backend.",
-    tags: ["Python", "Django", "SQLite", "RBAC"],
-    repoUrl: null
-  },
-  {
     title: "URL Shortener",
     description: "A high-performance backend application built with FastAPI that generates, manages, and redirects short URLs. The service uses SQLAlchemy for database operations and is containerized with Docker for easy deployment.",
     tags: ["Python", "FastAPI", "SQLAlchemy", "Docker"],
@@ -61,10 +61,10 @@ export const experienceData = [
     company: "12u12 Sdn Bhd - Selangor",
     date: "July 2025 – Present",
     points: [
-      "Built and maintained nearly 1,000 automated UI tests and debugged 400+ legacy scripts, improving stability by 95% while mentoring a new intern to accelerate onboarding.",
-      "Architected a hybrid keyword/data-driven framework from a plain Python test suite, using Pydantic-validated JSON pipelines to cut code duplication by 90% and enable test authoring by non-technical staff.",
-      "Optimized test execution from 3–4 minutes to 4–6 seconds per case through caching and modular data design.",
-      "Developed a Gemini-powered AI data extraction tool to automate nutritional data collection and schema validation."
+      "Led the QA automation effort and mentored a junior interns, scaling the active suite to nearly 1,400 UI tests by debugging legacy code and delivering nearly 1,000 new cases.",
+      "Re-architected the testing stack to replace the script-based suite with a modular Data-Driven engine, using Pydanticvalidated JSON pipelines to decouple data from logic and enable cross-platform support.",
+      "Optimized test execution time from 3–4 minutes down to 4–6 seconds per case by implementing intelligent caching and modular data design.",
+      "Developed an internal tool using Gemini AI to automatically extract and validate nutritional data, replacing manual data entry."
     ]
   },
   {

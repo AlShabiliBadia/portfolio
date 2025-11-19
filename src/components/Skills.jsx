@@ -3,27 +3,23 @@ import { MotionSection } from '../hooks/useAnimation';
 const skillsCategories = [
   {
     title: "Languages",
-    skills: "Python, SQL (MySQL, SQLite, PostgreSQL)"
+    skills: "Python (Advanced), SQL (PostgreSQL, MySQL), NoSQL (MongoDB) Academic Experience: Java, JavaScript"
   },
   {
-    title: "Test Automation Frameworks",
-    skills: "Playwright, Selenium, Appium, Pytest"
+    title: "QA Automation & Strategy",
+    skills: "Playwright, Selenium, Appium, Pytest, Keyword/Data-Driven Frameworks, Test Architecture"
   },
   {
-    title: "QA Methodologies",
-    skills: "Test Design, API Testing, Regression/Integration/UAT"
+    title: "Backend Architecture",
+    skills: "FastAPI, RabbitMQ, Microservices, System Design, REST APIs"
   },
   {
-    title: "Backend & Core",
-    skills: "FastAPI, REST APIs, Data Structures, Algorithms, OOP"
+    title: "AI Engineering",
+    skills: "LLM Integration, Instructor (Structured Output), Pydantic Validation"
   },
   {
-    title: "Developer Tools & CI/CD",
-    skills: "Docker, Git, GitHub, Postman, GitHub Actions"
-  },
-  {
-    title: "Familiar With",
-    skills: "JavaScript, Java, PHP, Kotlin, Django, Laravel"
+    title: "DevOps & Tools",
+    skills: "Docker Compose, Git, GitHub, GitHub Actions, Postman"
   }
 ];
 
