@@ -61,10 +61,10 @@ export const experienceData = [
     company: "12u12 Sdn Bhd - Selangor",
     date: "July 2025 – Present",
     points: [
-      "Led the QA automation effort and mentored a junior interns, scaling the active suite to nearly 1,400 UI tests by debugging legacy code and delivering nearly 1,000 new cases.",
-      "Re-architected the testing stack to replace the script-based suite with a modular Data-Driven engine, using Pydanticvalidated JSON pipelines to decouple data from logic and enable cross-platform support.",
-      "Optimized test execution time from 3–4 minutes down to 4–6 seconds per case by implementing intelligent caching and modular data design.",
-      "Developed an internal tool using Gemini AI to automatically extract and validate nutritional data, replacing manual data entry."
+      "Scaled the automation suite from 400 to 1,400+ active tests, personally implementing ~1,000 scenarios across Web and Mobile while mentoring new team members.",
+      "Replaced fragile legacy scripts with a Unified Keyword-Driven Engine (Appium/Pytest), enabling a single codebase to target both iOS and Android via dynamic configuration.",
+      "Achieved a significant reduction in execution time by implementing session-scoped fixtures to eliminate redundant app launches and logins.",
+      "Engineered a free-tier-optimized tool using the Gemini API to automate nutritional data extraction, implementing custom rate-limiting to operate strictly within free-tier constraints."
     ]
   },
   {
